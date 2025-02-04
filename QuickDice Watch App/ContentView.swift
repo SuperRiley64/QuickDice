@@ -13,17 +13,17 @@ struct ContentView: View {
                 VStack(spacing: 8) { // Reduced spacing for compact layout
                     HStack {
                         rollButton("d2", max: 2)
-                        rollButton("d3", max: 3)
+                        rollButton("d4", max: 4)
                     }
                     
                     HStack {
-                        rollButton("d4", max: 4)
                         rollButton("d6", max: 6)
+                        rollButton("d8", max: 8)
                     }
 
                     HStack {
-                        rollButton("d8", max: 8)
                         rollButton("d10", max: 10)
+                        rollButton("d12", max: 12)
                     }
 
                     HStack {
